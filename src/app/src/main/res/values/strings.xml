@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label">Bookkeeper</string>
+    <string name="currencies">Currencies</string>
+    <string name="history">History</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="sourceCode">Source code</string>
+    <string name="canNotBackupRestore">Can\'t backup/restore without permission</string>
+    <string name="unsuccessful">Unsuccessful\n</string>
+    <string name="successfulBackupTo">Successful backup to\n</string>
+    <string name="move">Move</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="totalValue">Total value:</string>
+    <string name="add">Add</string>
+    <string name="menu">Menu</string>
+    <string name="assetHaveValues">Can\'t delete, has values</string>
+    <string name="assetHaveHistory">Can\'t delete, has history</string>
+    <string name="currencyHasAssets">Can\'t delete, has assets</string>
+    <string name="dateAndTimeSdf">yyyy.MM.dd HH:mm</string>
+    <string name="changeCourse">Change course</string>
+    <string name="clear">Clear</string>
+    <string name="invert">Invert</string>
+    <string name="save">Save</string>
+    <string name="totalChange">Total value changed</string>
+    <string name="selectCurrency">Select currency</string>
+    <string name="deleteS">Delete %1$s?</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="dateAndTimeSecSdf">yyyy.MM.dd HH:mm:ss</string>
+    <string name="hasHistory">Can\'t delete, has later history</string>
+    <string name="enterName">Enter name</string>
+    <string name="enterDescription">Enter description</string>
+    <string name="negate">Negate</string>
+    <string name="next">Next</string>
+</resources>

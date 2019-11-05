@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction">
+    <item android:id="@+id/currencies" android:showAsAction="always" android:icon="@drawable/currencies"
+        android:title="@string/currencies" />
+    <item android:id="@+id/history" android:showAsAction="always" android:icon="@drawable/history"
+        android:title="@string/history" />
+    <item android:id="@+id/backup" android:showAsAction="never" android:title="@string/backup" />
+    <item android:id="@+id/restore" android:showAsAction="never" android:title="@string/restore" />
+    <item android:id="@+id/source" android:showAsAction="never" android:title="@string/sourceCode" />
+</menu>

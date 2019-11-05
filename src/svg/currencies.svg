@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" baseProfile="full" viewBox="0 0 48 48"
+    preserveAspectRatio="xMidYMid meet">
+    <path d="m 17,12 h 6.5 a 6,6 0 0 1 0,12 h -6.5 h 8 a 6,6 0 0 1 0,12 h -8 Z" fill="none" stroke="black"
+        stroke-width="4" />
+    <line x1="23" y1="6" x2="23" y2="42" stroke="black" stroke-width="2" />
+</svg>

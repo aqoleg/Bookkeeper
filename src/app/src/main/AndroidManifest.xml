@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="space.aqoleg.bookkeeper">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application android:name="space.aqoleg.bookkeeper.Data" android:allowBackup="false" android:icon="@mipmap/icon"
+        android:theme="@style/Theme" android:label="@string/label">
+        <activity android:name="space.aqoleg.bookkeeper.ActivityMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

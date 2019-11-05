@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="RtlHardcoded, UselessParent" android:layout_width="match_parent" android:layout_height="44dp"
+    android:orientation="horizontal" android:gravity="right">
+    <FrameLayout android:id="@+id/add" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginRight="16dp" android:layout_marginLeft="16dp" android:layout_gravity="center_vertical"
+            android:src="@drawable/add" android:contentDescription="@string/add" />
+    </FrameLayout>
+</LinearLayout>

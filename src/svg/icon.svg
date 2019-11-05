@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full"
+    viewBox="0 0 16 16" preserveAspectRatio="xMidYMid meet">
+    <defs>
+        <path id="b" d="m 4.7,2 h 3 a 3,3 0 0 1 0,6 h -3 h 3.6 a 3,3 0 0 1 0,6 h -3.6 Z" />
+    </defs>
+    <g fill="none">
+        <use xlink:href="#b" stroke="black" stroke-width="3" />
+        <use xlink:href="#b" stroke="#F7931A" stroke-width="2.5" />
+    </g>
+</svg>

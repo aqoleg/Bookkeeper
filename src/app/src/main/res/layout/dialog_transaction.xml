@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp"
+        android:gravity="center" android:textSize="16sp" android:maxLines="1" android:ellipsize="end" />
+    <LinearLayout android:id="@+id/mainCurrencyLayout" android:orientation="vertical"
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingRight="8dp"
+        android:paddingLeft="8dp" android:paddingTop="8dp">
+        <TextView android:id="@+id/startMain" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="12sp" />
+        <TextView android:id="@+id/main" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="12sp" />
+    </LinearLayout>
+    <TextView android:id="@+id/start" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingLeft="8dp" android:paddingRight="8dp" android:paddingTop="8dp" android:textSize="14sp" />
+    <TextView android:id="@+id/delta" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="8dp" android:textSize="14sp" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="1dp"
+        android:background="@android:color/black" />
+    <TextView android:id="@+id/result" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="8dp" android:textSize="14sp" />
+    <EditText android:id="@+id/editValue" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:minWidth="220dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp" android:inputType="numberDecimal" android:imeOptions="actionNext" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40dp"
+        android:background="@color/colorMain">
+        <TextView android:id="@+id/clear" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:layout_weight="1" android:gravity="center" android:text="@string/clear" android:textSize="16sp" />
+        <TextView android:id="@+id/negate" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:layout_weight="1" android:gravity="center" android:text="@string/negate" android:textSize="16sp" />
+        <TextView android:id="@+id/next" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:layout_weight="1" android:gravity="center" android:text="@string/next" android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
